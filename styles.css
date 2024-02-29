@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.web-page {
+    min-height: 100vh;
+    display: flex;
+}
+
+@font-face {
+    font-family: "Norse Bold";
+    src: url("./Norse-Bold.otf");
+  }
+
+/* COLUMN-ONE */
+.column-one {
+    background-image: url(./images/plant-background.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    justify-content: space-between;
+    max-width: 40vw;
+
+}
+
+a {
+    color: white;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.5rem;
+    margin-top: 20vh;
+    padding: 0.5rem 0 0.5rem 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: "Norse Bold";
+}
+
+.image img {
+    height: 7.875rem;
+}
+
+.image h2 {
+    margin: 0;
+}
+
+.credit {
+    font-size: 0.9rem;
+}
+
+/* COLUMN-TWO */
+.column-two {
+    background-color: #f9fafb;
+    max-width: 60vw;
+}
+
+.text-one {
+    font-weight: bold;
+    margin: 9rem 28rem 0 3rem;
+    font-size: 1.5rem;
+}
+
+.text-two {
+    font-weight: bold;
+    margin: 2rem 0 0 3rem;
+    font-size: 1.5rem;
+}
+
+.user-data {
+    background-color: white;
+    box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0 1rem 3rem;
+    margin-top: 4rem;
+    color: black;
+
+}
+
+.user-data h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.user-data label {
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+
+.inputs input {
+    box-sizing: border-box;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    padding: 4px 8px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.inputs > div{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 84px;
+    row-gap: 18px;
+    margin-bottom: 2rem;   
+}
+
+.inputs label 
+{
+    display: block;
+}
+
+.inputs input:focus 
+{
+    border: 3px solid blue;
+    box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+input.error 
+{
+    border: 1px solid red;
+}
+  
+.error-message 
+{
+    margin-top: 0;
+    font-size: 0.8rem;
+    color: red;
+}
+
+#create-account {
+    background-color: #596D48;
+    color: white;
+    border-radius: 8px;
+    padding: 0.8rem 3rem;
+    margin: 2rem 0 0 3rem;
+    border: #596D48;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.existing-user {
+    margin: 2rem 0 0 3rem;
+}
+
+.existing-user a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
